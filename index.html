@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="hero">
+       
+        <div class="container">
+           <div class="signup-card">
+            <div class="heading-card">
+            <div class="heading">
+            
+            <a href="#"> <img src="Logo.png" alt="Logo"> </a>
+            <h1 class="heading"> For Individual</h1>
+            <h3 class="subheading">Start benefiting from the wellness experience. 
+                For companies looking on increasing productivity, 
+                and improving organization wellness.</h3>
+
+             </div>   
+            </div>
+            </div>
+            
+            <div class="signup-form">
+                <form action="/register_individual" method="post">
+                    <div class="row">
+                        <div class="col">
+                          <div class="names">
+                               <div class="input-Box">
+                               <label for="firstname">First Name</label> 
+                               <input type="text" class="styled-input" placeholder="John">
+                               </div>
+                               <div class="input-Box">
+                               <label for="lastname">Last Name</label>
+                               <input type="text" class="styled-input" placeholder="Doe">
+                            </div>
+                       </div>
+                        <div class="gender-date">
+                            <div class="input-Box" id="styled-input">
+                            <label for="Gender">Gender</label>
+                            <select class="Gender" name="Gender" >
+                               <option value="Select Here" name="Select Here"></option>
+                                <option value="Male" name="Male">Male</option>
+                              <option value="Female" name="Female">Female</option>
+                            </select> 
+                          </div>
+                          <div class="input-Box">
+
+                            <label for="Date of Birth">Date of Birth</label>
+                            <input type="Date" name="Birthday"> 
+
+                        </div>  
+                           </div>
+
+                           
+                              
+                           <div class="names">
+                           <div class="input-Box" id="styled-input"> 
+                            <label for="weight">Weight(KG)</label>
+                            <input type="number" step=".01" name="weight" id="ex4" placeholder="Enter Weight">
+                            </div>
+                            <div class="input-Box">
+                            <label for Height>Height(CM)</label> 
+                            <input type="number" name="height" id="ex5" placeholder="Enter Height">
+                        </div>
+                        </div>
+                           
+                        <div class="Activity"  id="styled-input">
+
+                            <label for="Activity Level">Activity Level</label>
+                    
+                           <select class="Activity" name="Activity" >
+                              <option value="Select Activity Level">Select Here</option>
+                       
+                               <option value="Coding">Coding</option>
+                               <option value="Coding">Designing</option>
+                               <option value="Coding">Writing</option>
+                              <option value="Coding">Football</option> 
+
+                            </select>
+                        </div>
+
+                               
+                        <div class="password"  id="styled-input"> 
+
+                           <label for="password">Password</label>
+                           <div class="password-container">
+                           
+                           <input type="password" placeholder="Password..." id="password" style="width: 100%;">
+                           <i class="fa-solid fa-eye" id="eye"></i>
+                        </div> 
+                        </div> 
+
+
+                            <div class="button">
+                            <input type="submit" value="Register" class="submit-btn">
+                            
+                        </div>
+                        <div class="text-footer">
+                            <p class="text">By clicking Register, you agree to our <span class="strong-statement">Terms of Use </span> and <span class="strong-statement">our Privacy Policy</span></p> 
+                           </div>
+                        </div>
+                        </div>
+                    </div> 
+                         </div>
+
+                            </div>
+
+                </form>
+              
+
+        
+        </div>
+    </section>
+    
+</body>
+</html>
